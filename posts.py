@@ -23,6 +23,7 @@ def main():
 	APP_ID = "Enter your APP_ID!"
 	APP_SECRET = "Enter your APP_SECRET!"
 	current_page = "https://www.facebook.com/bbchindi"
+	#Enter only the page name, for eg: bbchindi
 	final_page = graph_url + current_page[25:]
 	post_url = create_post_url(final_page, APP_ID, APP_SECRET)
 	#post_url = "https://graph.facebook.com/walmart/posts/?key=value&access_token=912600455526187|01641acf5f36a15834aeb5ef7909cad2"
