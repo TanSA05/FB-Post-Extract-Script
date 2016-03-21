@@ -20,8 +20,8 @@ def main():
     #e.g. http://facebook.com/walmart, walmart is the usernames
 	graph_url = "https://graph.facebook.com/"
 	#extract post data
-	APP_ID = "912600455526187"
-	APP_SECRET = "f8f873a14ee91f7720e36efb1da7b292"
+	APP_ID = "Enter your APP_ID!"
+	APP_SECRET = "Enter your APP_SECRET!"
 	current_page = "https://www.facebook.com/bbchindi"
 	final_page = graph_url + current_page[25:]
 	post_url = create_post_url(final_page, APP_ID, APP_SECRET)
