@@ -58,8 +58,8 @@ def main():
 	#e.g. http://facebook.com/walmart, walmart is the usernames
 	graph_url = "https://graph.facebook.com/"
 	#extract post data
-	APP_ID = "1336567016356332"
-	APP_SECRET = "440de037aac551221fa49b0c85130454"
+	APP_ID = ""
+	APP_SECRET = ""
 	current_page = "https://www.facebook.com/v2.8/175065909612262"
 	#Enter only the event id, for eg: 680613812093479
 	final_page = graph_url + current_page[30:]
